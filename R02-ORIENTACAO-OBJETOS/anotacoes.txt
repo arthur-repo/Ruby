@@ -1,0 +1,14 @@
+Ruby não suporta sobrecarga , ou seja , ele nao permite metodos com mesmo nome e implementacao difrenete
+-podemos passar argumentos padroes
+
+-Dentro do
+diretório lib serão criados os arquivos que representamas classes do sistema,
+
+-Para carregar o conteúdo do arquivo lib/livro.rb é necessário utilizar o
+método require da classe Kernel. O método require recebe como parâmetro
+uma String que pode ser o nome do arquivo .rb que você deseja carregar. Se o
+33
+3.2. Crie a estrutura do projeto Casa do Código
+parâmetro não for o caminho absoluto do arquivo .rb omesmo será procurado em
+diretórios que estão definidos na constante $LOAD_PATH.
+

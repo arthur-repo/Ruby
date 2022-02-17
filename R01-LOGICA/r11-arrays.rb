@@ -5,6 +5,10 @@ p a.class # mostra de que classe e a avariavel
 p a.length # mostra o tamanho do array
 p a[0] 
 
+a << "dados"
+
+p a
+
 # arrays iniciam a indexaxao apartir do 0 , caso nao exista um elemento ele retorna null
 # ao inserir um numero negativo a contagem e feita de tras pra frente
 p "----------------------------------------------------"
